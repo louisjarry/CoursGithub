@@ -20,34 +20,47 @@
 
   <style>
     /* les styles de notre page, ils positionnent correctement le footer */
+
     body {
-        background-color: #fcfcfc;
-        padding-bottom: 300px;
+      background-color: #fcfcfc;
+      padding-bottom: 300px;
     }
+
     footer a {
-        margin: 50px;
+      margin: 50px;
     }
+
     a:hover {
-        text-decoration: underline;
+      text-decoration: underline;
     }
+
+    .img-rounded {
+      width: 350px;
+      margin: 50px 0 50px 0;
+    }
+
     footer {
-        position: fixed;
-        bottom: 0;
-        height: 40px;
-        line-height: 40px;
-        width: 100%;
+      position: fixed;
+      bottom: 0;
+      height: 40px;
+      line-height: 40px;
+      width: 100%;
     }
+
     /* mobile */
+
     @media screen and (max-width: 768px) {
-        footer {
-            height: 80px;
-            line-height: 40px;
-        }
+      footer {
+        height: 80px;
+        line-height: 40px;
+      }
     }
   </style>
 </head>
 
 <body class="text-center">
+
+  <img src="./supdeweb-logo.jpg" alt="Sup de Web" class="img-rounded">
 
   <p class="introduction"></p>
 
@@ -68,11 +81,6 @@
 
   <!-- Je me décrit en quelques lignes -->
   <!-- <p></p> -->
-
-  <script>
-    // ce petit script ajoute une image en haut du
-    $('body').prepend('<img src="http://www.supdeweb.com/bundles/sdw/images/agenda/arrivee-de-la-promo-2016-a-shanghai_1456745965.png" alt="Sup de Web" style="width: 350px; margin: 50px 0 50px 0;" class="img-rounded">');
-  </script>
 
   <footer>
     -
